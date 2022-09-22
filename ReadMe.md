@@ -4,7 +4,7 @@ LOL , Js was built in a week, that explains why its so tra-
 
 ###### DOM - Document Object Model
 
-DOM is a api to communicate with HTML documents, Nodes are in Doms for the same reason (God i'm saying trash already)
+DOM is an api to communicate with HTML documents, Nodes are in Doms for the same reason (God i'm saying trash already)
 <img align="center" src="./assets/DOM.JPG" >
 3 types of Nodes as stated in the Diagram
 
@@ -52,3 +52,35 @@ Decrement (--)
 #### Comparison
 <img align="center" src="./assets/COMPARIAON OPERATORS.JPG" >
 
+### Control Statements
+if ... else statements
+```js script
+var x = 10
+if (x>10){
+    documents.write('X is greter than 10')
+}else if(x == 10){
+    document.write('X is equals to  10')
+}else{
+    document.write('X is less than 10')
+}
+```
+
+### Functions in Javascript
+Functio uses the function keyword e.g
+```js script
+function sum(x,y){
+    return x+y
+}
+
+```
+### Scope of Variables in Javascript
+2 types of variables:
+    Local variables
+    Global variables
+var keyword has a limited scope inside and outside a function.
+siji pls just never use let, just use var and const
+
+### Strings in Javascript
+I just recalled escape sequence and concantenation in js
+
+### Arrays in Javascript
