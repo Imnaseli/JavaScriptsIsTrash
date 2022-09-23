@@ -50,7 +50,7 @@ Decrement (--)
 <img align="center" src="./assets/LOGICAL OPERATORS.JPG" >
 
 #### Comparison
-<img align="center" src="./assets/COMPARIAON OPERATORS.JPG" >
+<img align="center" src="./assets/COMPARISON OPERATORS.JPG" >
 
 ### Control Statements
 if ... else statements
@@ -84,3 +84,71 @@ siji pls just never use let, just use var and const
 I just recalled escape sequence and concantenation in js
 
 ### Arrays in Javascript
+```js script
+var car = ['Honda' , 'Kia' , 'Ford']
+document.write('<h1>'+car+'</h1>')
+```
+index also starts from 0
+
+```js script
+var car = ['Honda' , 'Kia' , 'Ford']
+for(var i=0;i<3;i++){
+    document.write(document.write('<h1>'+car[i]+'</h1>'))
+}
+```
+Another way to call your Array
+```js script
+var fruits = new Array('Mango' , 'Banana' , 'Apple' , 'Grape')
+for(var i = 0 ; i < fruits.length() ; i++){
+    document.write('<h1>'+fruits[i]+'</h1>')
+}
+```
+### Objects in Javascript
+```js sccript
+var car = {
+    manufacture : "Honda",
+    color : "Red",
+    allprintsha : function()
+    {
+        document.write('Hello World')
+    }
+}
+```
+Better way
+```js sccript
+function cars : (brand , color , model){
+    this.brand = brand
+    this.color = color
+    this.model = model
+    this.drive : function(self , brand , model ){
+        document.write('I drive a '+this.brand+' colored'+ this.color)
+    }
+}
+```
+
+### Object Prototype in Javascript
+
+```js script
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
