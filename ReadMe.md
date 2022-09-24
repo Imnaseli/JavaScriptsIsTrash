@@ -126,12 +126,41 @@ function cars : (brand , color , model){
 }
 ```
 
-### Object Prototype in Javascript
+### Classes in Javascript
 
 ```js script
+class Student{
+    constructor(name , age , roll){
+        this.name = name
+        this.age = age
+        this.roll = roll
+    }
 
+    org(){
+        return(this.name+' works at Blur studios')
+    }
+    dob(){
+        return(this.name+' is '+this.age+' years old')
+    }
+}
 ```
+inheritance
+A new class will inherit from the Student class above
+```js script
+class Student2 extends Student{
+    constructor(name, age , roll , language , department){
+        super(name,age,roll)
+        this.language = language
+        this.department = department
+    }
+}
+```
+static methods dont need a class instance to use
 
+### GettingElementsbyTagname in Javascript
+```js script
+var x = document.getElementsByTagName('div')
+```
 
 
 

@@ -7,6 +7,12 @@ var abc = {
     }
 }
 abc.changename('Harry')
-console.log(abc)
+// console.log(abc)
+// document.write(abc.name)
 
+function Employee(name , age , role){
+    this.name = name
+    this.age = age
+    this.role = role
+}
 
