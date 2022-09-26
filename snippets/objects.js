@@ -25,3 +25,17 @@ var color = car2.color
 var c4 = new cars
 c4.brand = "VOLKSWAGEN"
 document.write(c4.brand)
+
+//Factory functions
+//Constructor for creating Objects
+function obj(name, age, cls) 
+{
+    return{
+        person :name,
+        age,
+        cls
+    }
+};
+
+let person = obj("somto", 19, "300");
+person.name

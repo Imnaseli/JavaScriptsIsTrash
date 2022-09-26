@@ -161,6 +161,60 @@ static methods dont need a class instance to use
 ```js script
 var x = document.getElementsByTagName('div')
 ```
+### GettingElementsbyClass in Javascript
+```js script
+var x = document.getElementsByClassName('div')
+```
+### GettingElementsbyId in Javascript
+```js script
+var x = document.getElementsById('div')
+```
+### Arrow Functions in Javascript
+Arrow functions are best for one line functions
+```js script
+// Normal syntax
+function func1(a,b){
+    return a+b
+}
+func1(5 , 10) // Ans: 20
+// Arrow Functions
+var arr1 = (a , b) => {
+    return a + b
+}
+arr1(5 , 10) //Ans:20
+// Arrow FUnctions
+var arr2 = () => console.log('Arrow functions are wild')
+arr2()
+```
+### Anonymous FUnctions
+Anonymous functions are functions without a name
+```js script
+setTimeout(function(){
+    alert('This is an Anonymous function, it has no name')
+} , 2000)
+```
+### Timing Functions in Javascript
+1. setTimeout methon
+```js script
+    var message = () => alert('Bitch, shut the fuck up!')
+
+    function fun1(){
+        setTimeout(message , 2000)
+    }
+```
+```js script
+//sets a specofoed time before a specified function can run
+setTimeout(function , time)
+
+//Stops an alredy set time for a function
+id = setTimeout(message , 2000)
+clearTimeout(id)
+
+//Repetitively calls a specified function after a specified time 
+setInterval(function , time)
+```
+
+### Async Await  in Javascript
 
 
 
