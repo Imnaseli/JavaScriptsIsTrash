@@ -217,7 +217,54 @@ setInterval(function , time)
 ### Async Await  in Javascript
 
 
+### Error Handeling  in Javascript
+```js script
+var namess = (names) =>{
+    console.log('my name is '+ namesd);
+};
+try{
+    namess('jake');
+     
+} catch (error) {
+    console.log(error + ' is shit')
+}
+```
+error.name
+error.message
 
+
+### Regex  in Javascript
+```js script
+var regex = /hELlo/ig
+var str1 = 'WHatsup guys, say Hello to the channel'
+
+//Displays thespecified string(s) in an array
+var output = regex.exec(str1)
+console.log(output)
+
+//Works with the g modifier to identify more that one match with the pattern structure
+var output = regex.exec(str1)
+console.log(output)
+
+var output = regex.test(str1)
+console.log(output)
+
+var output = str1.match(regex)
+console.log(output)
+```
+Methods in regex
+exec(): outputs the matches in an array
+test(): returns a bool for whether theres a match or not
+match(): returns an array too, but the syntax is opposite the upper two, there you pass the regular expression as a parameter.
+
+modifiers
+are used for better string pattern matching
+i: its put after the second slash and is used to ignore the case sensitivity in regex
+test wont work
+
+g: its put after the second slash and is used to allow regex recognize more than  1 match of the same pattern, must be called the second time
+
+### Metacharacters  in Javascript
 
 
 
