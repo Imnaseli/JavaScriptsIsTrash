@@ -265,6 +265,36 @@ test wont work
 g: its put after the second slash and is used to allow regex recognize more than  1 match of the same pattern, must be called the second time
 
 ### Metacharacters  in Javascript
+Read on it, its used in regex 
+
+### Character sets and Ranges in Regex for Javascript
+Read on it, its used in regex 
+
+### Iterators
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
