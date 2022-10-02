@@ -270,7 +270,22 @@ Read on it, its used in regex
 ### Character sets and Ranges in Regex for Javascript
 Read on it, its used in regex 
 
-### Iterators
+### Map
+map note in snippets
+```js script
+var mycar = new Map()
+{
+//  mycar.set(1 , 'Mysterio')
+//  mycar.set(2 , 'impulse')   
+}
+// mycar.set(4 , 'flash')
+var arr = ['flash' , 'batman' , "a-train " , 'butcher']
+for(let i = 1 ; i-1 < arr.length ; i++){
+    mycar.set(i , arr[i-1])
+}
+
+console.log(mycar.get(4))
+```
 
 
 
