@@ -286,12 +286,24 @@ for(let i = 1 ; i-1 < arr.length ; i++){
 
 console.log(mycar.get(4))
 ```
+### Array
+```js script
+//create an array
+let per = ['Ilesanmi' , 19 , true]
+
+//Array methods
+let num = [4,7,8]
+num.push(9) //adds behind
+console.log(num)
+num.pop() //remove from back
+console.log(num)
+```
 
 
 
 
-
-
+### Math Methods
+ 
 
 
 

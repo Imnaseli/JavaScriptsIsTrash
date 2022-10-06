@@ -11,3 +11,45 @@
 //     document.write('<h1>'+fruits[i]+'</h1>')
 // }
 
+// let num = [4,7,8]
+// num.push(9) //adds behind
+// // console.log(num)
+// num.pop() //remove from back
+// // console.log(num)
+// let rand = Math.floor(Math.random()*4)
+// // console.log(num[Math.random()])
+// console.log(num[rand])
+
+
+let person = {
+    name:'richard',
+    age:43
+}
+ 
+console.log(person.name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
