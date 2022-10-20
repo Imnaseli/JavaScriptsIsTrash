@@ -5,7 +5,7 @@ function greet(){
     console.log(`${name} me ${me}`)
 }
 
-let name  = 'heyyy'
+name  = 'heyyy'
 
 function hello(){
 
