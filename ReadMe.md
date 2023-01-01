@@ -302,7 +302,7 @@ console.log(num)
 
 
 
-### Math Methods
+### Math Methods in JS
  
 
 
